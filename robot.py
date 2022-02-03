@@ -5,8 +5,7 @@ direction = 'up'
 def isFree(lines, x, y):
     print(x,y)
     print(lines[x][y])
-    # print((lines[x][y] != '#'))
-    if x >= 0 & y >= 0 & x < line_count & y < dot_count & (lines[x][y] != '#'):
+    if (x >= 0) & (y >= 0) & (x < line_count) & (y < dot_count) & (lines[x][y] != '#'):
         return True
     else:
         return False
