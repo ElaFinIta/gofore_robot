@@ -48,6 +48,6 @@ Help the friendly robot (🤖) find its way home? The rules are following
 
 ### Steps
 - [x] Find S and E
-- [ ] isSafe function: check we are inside the lines, inside single line and that spot is not blocked (#)
-- [ ] 
-- [ ] 
+- [x] isFree function: check we are inside the lines, inside single line and that spot is not blocked (#)
+- [x] turnRight function: to change direction
+- [x] moveForward function with recursion to find path to END (E)
